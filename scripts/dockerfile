@@ -1,0 +1,11 @@
+# 기존 rag 이미지 사용
+FROM python:3.10.13
+
+WORKDIR /opensearch
+
+COPY ./opensearch/ .
+
+RUN pip install --no-cache-dir -r /opensearch/requirements.txt
+
+# FastAPI 실행
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8889"]
