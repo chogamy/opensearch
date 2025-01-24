@@ -21,13 +21,16 @@ bash scripts/create.sh
 - .env파일의 오픈서치 비밀번호
 - scripts/opensearch.sh내의 gpu수
 - main.py의 EMB(임베딩 모델)
-- **대쉬보드는 포트 변경아 안되는 것 같아요**
+- **대쉬보드는 포트 변경이 안되는 것 같아요**
 - ...etc
 
 
 # 사용
 
-## 키바나 대쉬보드: http://<your_ip>:<your_port>/app/login?nextUrl=%2F
+## 키바나 대쉬보드
+- http://<your_ip>:<your_port>/app/login?nextUrl=%2F
+
+에서 확인 가능합니다.
 
 ## API 실행
 
